@@ -1,0 +1,44 @@
+* {
+    background-color: magenta;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+menu {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: lighter;  
+    font-size: 32px;  
+}
+
+.heading {
+    text-align: center;
+    font-size: 40px;
+}
+
+.maggie-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+p.intro {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p.des {
+    font-size: 18px;
+}
