@@ -1,44 +1,42 @@
 * {
-    background-color: magenta;
+    font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    font-family: 'Times New Roman', Times, serif;
+.card {
+    width: 800px;
+    background-color: pink;
+    margin:auto auto;
+    padding: 20px;
+    border:2px solid darkred;
+    box-shadow: 4px 4px rgb(195, 86, 232);
+}
+
+#title {
+    
     text-align: center;
-    font-weight: bold;
+    text-shadow: 2px 2px rgb(195, 86, 232);
 }
 
-.title-image {
+#title-photo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+    margin: 0 auto;
+    box-shadow: 4px 4px rgb(195, 86, 232);
+    border-radius: 10px;
 }
 
-menu {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-weight: lighter;  
-    font-size: 32px;  
-}
-
-.heading {
-    text-align: center;
-    font-size: 40px;
-}
-
-.maggie-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-}
-
-p.intro {
+.info {
+    font-size: 22px;
     font-weight: bold;
-    font-size: 20px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
 }
 
-p.des {
-    font-size: 18px;
+.detail {
+    margin: 10px auto;
+    
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: lighter;
 }
