@@ -12,15 +12,20 @@
 }
 
 #title {
-    
+   
     text-align: center;
     text-shadow: 2px 2px rgb(195, 86, 232);
+    background-color: #b699c7;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(195, 86, 232);
+    
+
 }
 
 #title-photo {
     display: block;
     margin: 0 auto;
-    box-shadow: 4px 4px rgb(195, 86, 232);
+    box-shadow: 2px 2px rgb(195, 86, 232);
     border-radius: 10px;
 }
 
@@ -39,4 +44,37 @@
     padding: 5px;
     font-size: 16px;
     font-weight: lighter;
+}
+
+#recipe-title {
+    text-align: center;
+    text-shadow: 2px 2px rgb(195, 86, 232);
+    background-color: #b699c7;
+    border-radius: 10px;
+    box-shadow: 4px 4px rgb(195, 86, 232);
+}
+
+.maggie-image {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 4px 4px rgb(195, 86, 232);
+    border-radius: 10px;
+    width: 350px;
+}
+
+.subs {
+    font-size: 22px;
+}
+
+#link {
+    display: block;
+    text-align: center;
+}
+
+.ingr li {
+    margin: 8px;
+}
+
+.steps li {
+    margin: 5px;
 }
